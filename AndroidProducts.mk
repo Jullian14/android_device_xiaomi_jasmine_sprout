@@ -23,9 +23,6 @@
 
 # inherit MI A2 lineage device config
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/carbon_jasmine_sprout.mk
+    $(LOCAL_DIR)/zenx_jasmine_sprout.mk
 
-COMMON_LUNCH_CHOICES := \
-    carbon_jasmine_sprout-eng \
-    carbon_jasmine_sprout-userdebug \
-		carbon_jasmine_sprout-eng
+
