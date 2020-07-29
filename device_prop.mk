@@ -24,7 +24,9 @@
 # Adaptive Display
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.qcom.ad=1 \
-    ro.qcom.ad.sensortype=2
+    ro.qcom.ad.sensortype=2 \
+    #dpi
+    ro.sf.lcd_density=440
 
 # Camera
 PRODUCT_PROPERTY_OVERRIDES += \
