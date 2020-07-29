@@ -41,4 +41,15 @@
     <!-- Whether a software navigation bar should be shown. NOTE: in the future this may be
          autodetected from the Configuration. -->
     <bool name="config_showNavigationBar">true</bool>
+    
+    <!-- Sets the package name for device parts-->
+    <string name="configdevicepartspackagename" translatable="false">org.lineageos.settings.device</string>
+    <string name="configdevicepartspackageactivity" translatable="false">com.android.settings.action.EXTRA_SETTINGS</string>
+
+    <!-- Sets the paths that are needed for SystemInfo-->
+    <string name="config_cpu_temp_path" translatable="false">/sys/class/thermal/thermal_zone0/temp</string>
+    <string name="config_battery_temp_path" translatable="false">sys/class/power_supply/battery/temp</string>
+    <string name="config_gpu_clock_path" translatable="false">/sys/kernel/gpu/gpu_clock</string>
+    <string name="config_gpu_busy_path" translatable="false">/sys/kernel/gpu/gpu_busy</string>
+    <string name="config_battery_level_path" translatable="false">/sys/class/power_supply/battery/capacity</string>
 </resources>
