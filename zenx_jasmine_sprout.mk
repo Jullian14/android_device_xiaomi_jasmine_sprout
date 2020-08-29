@@ -40,3 +40,4 @@ PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_NAME := zenx_jasmine_sprout
 PRODUCT_DEVICE := jasmine_sprout
 PRODUCT_MODEL := Mi A2
+ZENX_BUILD_TYPE := Official
